@@ -45,6 +45,10 @@ header+.restaurants {
     width: 100%;
 }
 
+.card {
+    height: 450px;
+}
+
 #category {
     font-size: 14px;
     color: #626262;
@@ -71,5 +75,22 @@ input {
     border-left: none;
     border-right: none;
     outline: none;
+
+}
+
+footer {
+    background-color: #262626;
+    padding-top: 55px;
+    padding-bottom: 50px;
+}
+
+#logo-white {
+    padding-bottom: 40px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #979797;
 
 }
