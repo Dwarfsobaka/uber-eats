@@ -31,8 +31,6 @@ button {
     align-items: center;
 }
 
-
-
 h2 {
     font-weight: lighter;
 }
@@ -80,11 +78,11 @@ input {
 
 footer {
     background-color: #262626;
-    padding-top: 55px;
-    padding-bottom: 50px;
+
 }
 
 #logo-white {
+    padding-top: 56px;
     padding-bottom: 40px;
 }
 
@@ -93,4 +91,68 @@ hr {
     height: 1px;
     background: #979797;
 
+}
+
+.list {
+    margin-top: 30px;
+    width: 227px;
+    height: 40px;
+    background-color: #3B3B3B;
+    color: #fff;
+    font-family: inherit;
+}
+
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url('img/arrow-back.svg') 96% no-repeat #EEE;
+    border: none;
+}
+
+option {
+    padding-left: 20px !important;
+}
+
+
+
+.footerList {
+    color: #fff;
+    font-family: inherit;
+    font-size: 13px;
+    line-height: 2.5em;
+    padding-top: 10px;
+    list-style-type: none;
+}
+
+
+.hash {
+    margin-top: 33px;
+    color: #fff;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+.icons {
+    margin-top: 21px;
+    display: flex;
+    width: 92px;
+    height: 24px;
+    justify-content: space-between;
+}
+
+.stores {
+    margin: 35px 0px 35px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-end {
+    color: #fff;
+    font-family: inherit;
+    font-size: 13px;
+    line-height: 3.5em;
+    padding-top: 10px;
+    list-style-type: none;
 }

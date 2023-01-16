@@ -8,6 +8,12 @@
   <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript"
+    src="https://cdn.rawgit.com/prashantchaudhary/ddslick/master/jquery.ddslick.min.js"></script>
+
+
   <title>Document</title>
 </head>
 
@@ -22,7 +28,7 @@
           <button>Войти</button>
         </div>
         <div class="col-xs col-sm-1 col-md-1 col-xl-1">
-          <div class="hidden-xs"><img src="img/basket.svg" alt="" id="basket"></div>
+          <div class="hidden-xs hidden-sm"><img src="img/basket.svg" alt="" id="basket"></div>
 
         </div>
       </div>
@@ -46,71 +52,69 @@
   </div>
 
 
-
   <div class="container">
-
     <div class="row between-xl">
-      <div class="col-xl-4 col-md-6 col-xs-12 card"><img src="img/mak.jpg" alt="" id="cardImg">
+      <div class="col-xl-4 col-md-6 col-xs-12"><img src="img/mak.jpg" alt="" id="cardImg">
         <p id="nameRestaurant">Макдоналдс — Газетный</p>
         <p id="category">
-          &#8381; &#8381; &bull; Бургеры</p>
+          &#8381;&#8381; &bull; Бургеры</p>
         <p id="time">25 - 35 мин</p>
       </div>
-      <div class="col-xl-4 col-md-6 col-xs-12 card"><img src="img/dimsum.jpg" alt="" id="cardImg">
+      <div class="col-xl-4 col-md-6 col-xs-12"><img src="img/dimsum.jpg" alt="" id="cardImg">
         <p id="nameRestaurant">DimSum & Co — ЦДМ</p>
         <p id="category">
           &#8381; &bull; Японская &bull; Китайская &bull; Азиатская</p>
         <p id="time">40 - 50 мин</p>
       </div>
-      <div class="col-xl-4 col-md-6 col-xs-12 card"><img src="img/dvigok.jpg" alt="" id="cardImg">
+      <div class="col-xl-4 col-md-6 col-xs-12"><img src="img/dvigok.jpg" alt="" id="cardImg">
         <p id="nameRestaurant">ДвижОК — Манежная</p>
         <p id="category">
           &#8381; &bull; Американская &bull; Европейская</p>
         <p id="time">35 - 45 мин</p>
       </div>
-    </div>
 
-    <div class="row between-xl">
-      <div class="col-xl-4 col-md-6 col-xs-12 card"><img src="img/nha.jpg" alt="" id="cardImg">
+
+      <div class="col-xl-4 col-md-6 col-xs-12"><img src="img/nha.jpg" alt="" id="cardImg">
         <p id="nameRestaurant">НЯ — NHA</p>
         <p id="category">
           &#8381;&#8381; &bull; Вьетнамская</p>
         <p id="time">30 - 40 мин</p>
       </div>
-      <div class="col-xl-4 col-md-6 col-xs-12 card"><img src="img/dzy.jpg" alt="" id="cardImg">
+      <div class="col-xl-4 col-md-6 col-xs-12"><img src="img/dzy.jpg" alt="" id="cardImg">
         <p id="nameRestaurant">Точка Дзы — Цветной</p>
         <p id="category">
           &#8381;&#8381; &bull; Вьетнамская</p>
         <p id="time">40 - 50 мин</p>
       </div>
-      <div class="col-xl-4 col-md-6 col-xs-12 card"><img src="img/cinna.jpg" alt="" id="cardImg">
+      <div class="col-xl-4 col-md-6 col-xs-12"><img src="img/cinna.jpg" alt="" id="cardImg">
         <p id="nameRestaurant">Cinnabon</p>
         <p id="category">
           &#8381; &bull; Выпечка &bull; Десерты &bull; Капкейки</p>
         <p id="time">25 - 35 мин</p>
       </div>
-    </div>
 
-    <div class="row between-xl">
-      <div class="col-xl-4 col-md-6 col-xs-12 card"><img src="img/pizza.jpg" alt="" id="cardImg">
+
+      <div class="col-xl-4 col-md-6 col-xs-12"><img src="img/pizza.jpg" alt="" id="cardImg">
         <p id="nameRestaurant">PIZZELOVE</p>
         <p id="category">
           &#8381;&#8381; &bull; Пицца</p>
         <p id="time">15 - 25 мин</p>
       </div>
-      <div class="col-xl-4 col-md-6 col-xs-12 card"><img src="img/zu.jpg" alt="" id="cardImg">
+      <div class="col-xl-4 col-md-6 col-xs-12"><img src="img/zu.jpg" alt="" id="cardImg">
         <p id="nameRestaurant">Zю кафе — Тверская</p>
         <p id="category">
           &#8381;&#8381; &bull; Японская</p>
         <p id="time">25 - 35 мин</p>
       </div>
-      <div class="col-xl-4 col-md-6 col-xs-12 card"><img src="img/barbq.jpg" alt="" id="cardImg">
+      <div class="col-xl-4 col-md-6 col-xs-12"><img src="img/barbq.jpg" alt="" id="cardImg">
         <p id="nameRestaurant">Bar BQ Cafe — Манежная</p>
         <p id="category">
           &#8381;&#8381;&#8381; &bull; Европейская</p>
         <p id="time">30 - 40 мин</p>
       </div>
+
     </div>
+
   </div>
 
   <footer>
@@ -121,12 +125,72 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-xl-4"></div>
-        <div class="col-xl-4"></div>
-        <div class="col-xl-4"></div>
+        <div class="col-xl-4 col-md-4 col-xs-12">
+
+
+          <select class="list" style="background-image: url(img/arrow-back.svg)">
+            <option>Русский</option>
+            <option>Английский</option>
+          </select>
+
+          <div class="hash"><span style="color: #49A144;">#</span>UberEats</div>
+          <div class="icons">
+            <img src="img/facebook.png" alt="">
+            <img src="img/twitter.png" alt="">
+            <img src="img/instagram.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-xl-4 col-md-4 col-xs-12 footerList">
+          <p>Об UberEats</p>
+          <p>Станьте партнёром по доставке</p>
+          <p>Станьте парнёром-рестораном</p>
+        </div>
+        <div class="col-xl-4 col-md-4 col-xs-12 footerList">
+          <p>Все города</p>
+          <p>Цены</p>
+          <p>Помощь</p>
+          <p>FAQs</p>
+        </div>
       </div>
+      <hr>
+
+      <div class="row center-xl center-md center-xs ">
+        <div class="col-xl-4 col-md-2 col-xs-1 ">
+        </div>
+        <div class="col-xl-4 col-md-8 col-xs-10 ">
+          <div class="stores">
+            <img src="img/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.png" alt="">
+            <img src="img/en_badge_web_generic-cf6dad406f.png" alt="">
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-2 col-xs-1">
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row footer-end">
+        <div class="col-xl-4 col-md-4 col-xs-12 ">
+          <p>© 2017 Uber Technologies Inc.</p>
+        </div>
+        <div class="col-xl-4 col-md-4 col-xs-12 ">
+          <p>Обработка персональных данных</p>
+        </div>
+        <div class="col-xl-4 col-md-4  col-xs-12">
+          <p>Пользовательское соглашение</p>
+        </div>
+      </div>
+
+
     </div>
+    </div>
+
+    </div>
+
   </footer>
+
+
 
 </body>
 
