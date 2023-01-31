@@ -6,6 +6,7 @@ body {
 header {
     height: 72px;
     width: 100%;
+    /* margin: 0% auto; */
     /* position: fixed; */
     box-shadow: 0px 3px 16px rgb(38 38 38 / 16%);
     z-index: 10222;
@@ -17,11 +18,15 @@ header {
     height: 72px;
 }
 
+/* .header>div>img {
+    padding-left: 30px;
+} */
+
 button {
     width: 78px;
     height: 40px;
     background-color: #fff;
-    border: 0.5px solid #E0E0E0;
+    border: 0.5px solid rgba(151, 151, 151, 20%);
     border-radius: 2px;
 }
 
@@ -39,9 +44,9 @@ header+.restaurants {
     padding-top: 72px;
 }
 
-#cardImg {
+/* #cardImg {
     width: 100%;
-}
+} */
 
 .card {
     height: 450px;
@@ -86,7 +91,7 @@ footer {
     padding-bottom: 40px;
 }
 
-hr {
+#hr-footer {
     border: 0;
     height: 1px;
     background: #979797;
@@ -155,4 +160,79 @@ option {
     line-height: 3.5em;
     padding-top: 10px;
     list-style-type: none;
+}
+
+/* img {
+    max-width: 100%;
+} */
+
+
+
+.menu {
+    list-style: none;
+    padding-left: 0;
+
+    font-family: inherit;
+    color: #626262;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu>li {
+    padding-right: 40px;
+}
+
+.snack {
+    border: 1px solid rgba(151, 151, 151, 20%);
+    height: 160px;
+}
+
+#hr-line {
+    border-top: 0px solid rgba(151, 151, 151, 20%);
+}
+
+.pad {
+    padding-left: 20px;
+}
+
+#pad-img {
+    padding-bottom: 0px;
+}
+
+
+
+
+@media only screen and (min-width: 0px) {
+    .row-marg {
+        margin-bottom: 17px;
+
+    }
+
+    .snack {
+        border-left: none;
+        border-right: none;
+        border-top: 0px solid rgba(151, 151, 151, 20%);
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .row-marg {
+        margin-bottom: 32px;
+    }
+
+    .snack {
+        border: 1px solid rgba(151, 151, 151, 20%);
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .row-marg {
+        margin-bottom: 54px;
+    }
+
+    .snack {
+        border: 1px solid rgba(151, 151, 151, 20%);
+    }
 }
