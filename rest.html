@@ -13,15 +13,15 @@
 
 <body>
     <header>
-        <div class="container">
+        <div class="container ">
             <div class="row between-xl middle-xl middle-md middle-xs between-md between-xs header">
-                <div class="col-xs-10 col-sm-9 col-md-9 col-xl-10">
+                <div class="col-xs-8 col-sm-9 col-md-9 col-xl-10">
                     <img src="img/logo.svg" alt="">
                 </div>
-                <div class="col-xs-2 col-sm-2 col-md-2 col-xl-1">
+                <div class="col-xs-3 col-sm-2 col-md-2 col-xl-1">
                     <button>Войти</button>
                 </div>
-                <div class="col-xs col-sm-1 col-md-1 col-xl-1">
+                <div class="col-xs-1 col-sm-1 col-md-1 col-xl-1 center-xl">
                     <div class="hidden-xs hidden-sm"><img src="img/basket.svg" alt="" id="basket"></div>
 
                 </div>
@@ -29,15 +29,32 @@
         </div>
     </header>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-xs-12">
-                <img src="img/eat_rest.png" alt="">
+    <div class="container-img">
+        <div class="container">
+            <div class="row bottom-xs">
+                <div class="col-xl-5 col-md-7 col-xs-12">
+                    <div class="block-rest">
+                        <p class="block-rest-p">Трактир «Пушкин»</p>
+                        <div class="species-time">
+                            <div>
+                                <p id="category">&#8381;&#8381;&#8381; &bull; Европейская</p>
+                            </div>
+                            <div class="time">
+                                <div>40 - 50 мин</div>
+                            </div>
+                        </div>
 
+
+                    </div>
+                </div>
+                <div class="col-xl-7 col-md-7 col-xs-12">
+                </div>
             </div>
         </div>
+    </div>
 
-        <div class="row start-xl start-md start-xs">
+    <div class="container">
+        <div class="row start-xl start-md start-xs hidden-xs">
             <div class="col-xl-12 col-md-12 col-xs-12 start-xl start-md start-xs">
                 <ul class="menu">
                     <li>Закуски</li>
@@ -50,25 +67,31 @@
 
             </div>
         </div>
-
     </div>
-    <hr id="hr-line">
+
+    <div class="hidden-xs">
+        <hr id="hr-line">
+    </div>
+
     <div class="container">
-        <div class="row start-xl">
-            <div class="col-xs-12 col-md-12 col-xl-12">
+        <div class="row start-xl start-md center-xs">
+            <div class="col-xs-12 col-md-12 col-xl-12 ">
                 <h2>Закуски</h2>
+                <div class="hr-xs hidden-xl hidden-md"></div>
             </div>
         </div>
+        <a href="#" class="topbutton2"><img src="img/btn-up.png" alt=""></a>
         <div class="row">
 
             <div class="col-xl-6 col-md-12 col-xs-12 row-marg">
                 <div class="snack">
                     <div class="row">
-                        <div class="pad col-xl-6 col-md-6 col-xs-8 start-xl start-md start-xs ">
+                        <div class="pad col-xl-6 col-md-6 col-xs-7 start-xl start-md start-xs ">
                             <p id="nameRestaurant">Сельдь на бородинском хлебе</p>
                             <p id="category">С яйцом и огурцом</p>
+                            <p class="price">240 &#8381;</p>
                         </div>
-                        <div class="col-xl-6 col-md-6 col-xs-4 end-xl end-md end-xs">
+                        <div class="col-xl-6 col-md-6 col-xs-5 end-xl end-md end-xs">
                             <img src="img/seld.png" alt="" id="pad-img">
                         </div>
                     </div>
@@ -78,12 +101,28 @@
             <div class="col-xl-6 col-md-12 col-xs-12 row-marg">
                 <div class="snack">
                     <div class="row">
-                        <div class="pad col-xl-6 col-md-6 col-xs-8 start-xl start-md start-xs ">
-                            <p id="nameRestaurant">Сельдь на бородинском хлебе</p>
-                            <p id="category">С яйцом и огурцом</p>
+                        <div class="pad col-xl-6 col-md-6 col-xs-7 start-xl start-md start-xs ">
+                            <p id="nameRestaurant">Соленья ассорти</p>
+                            <p id="category">&nbsp;</p>
+                            <p class="price">320 &#8381;</p>
                         </div>
-                        <div class="col-xl-6 col-md-6 col-xs-4 end-xl end-md end-xs">
-                            <img src="img/seld.png" alt="" id="pad-img">
+                        <div class="col-xl-6 col-md-6 col-xs-5 end-xl end-md end-xs">
+                            <img src="img/solenya.png" alt="" id="pad-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-6 col-md-12 col-xs-12 row-marg">
+                <div class="snack">
+                    <div class="row">
+                        <div class="pad col-xl-6 col-md-6 col-xs-7 start-xl start-md start-xs ">
+                            <p id="nameRestaurant">Грибы маринованные</p>
+                            <p id="category">&nbsp;</p>
+                            <p class="price">300 &#8381;</p>
+                        </div>
+                        <div class="col-xl-6 col-md-6 col-xs-5 end-xl end-md end-xs">
+                            <img src="img/mashroom.png" alt="" id="pad-img">
                         </div>
                     </div>
                 </div>
@@ -91,12 +130,28 @@
             <div class="col-xl-6 col-md-12 col-xs-12 row-marg">
                 <div class="snack">
                     <div class="row">
-                        <div class="pad col-xl-6 col-md-6 col-xs-8 start-xl start-md start-xs ">
-                            <p id="nameRestaurant">Сельдь на бородинском хлебе</p>
-                            <p id="category">С яйцом и огурцом</p>
+                        <div class="pad col-xl-6 col-md-6 col-xs-7 start-xl start-md start-xs ">
+                            <p id="nameRestaurant">Сало домашнее с горчицей</p>
+                            <p id="category">&nbsp;</p>
+                            <p class="price">320 &#8381;</p>
                         </div>
-                        <div class="col-xl-6 col-md-6 col-xs-4 end-xl end-md end-xs">
-                            <img src="img/seld.png" alt="" id="pad-img">
+                        <div class="col-xl-6 col-md-6 col-xs-5 end-xl end-md end-xs">
+                            <img src="img/salo.png" alt="" id="pad-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-6 col-md-12 col-xs-12 row-marg">
+                <div class="snack">
+                    <div class="row">
+                        <div class="pad col-xl-6 col-md-6 col-xs-7 start-xl start-md start-xs ">
+                            <p id="nameRestaurant">Малосольная семга</p>
+                            <p id="category">&nbsp;</p>
+                            <p class="price">390 &#8381;</p>
+                        </div>
+                        <div class="col-xl-6 col-md-6 col-xs-5 end-xl end-md end-xs">
+                            <img src="img/red_fish.png" alt="" id="pad-img">
                         </div>
                     </div>
                 </div>
@@ -104,48 +159,20 @@
             <div class="col-xl-6 col-md-12 col-xs-12 row-marg">
                 <div class="snack">
                     <div class="row">
-                        <div class="pad col-xl-6 col-md-6 col-xs-8 start-xl start-md start-xs ">
-                            <p id="nameRestaurant">Сельдь на бородинском хлебе</p>
-                            <p id="category">С яйцом и огурцом</p>
+                        <div class="pad col-xl-6 col-md-6 col-xs-7 start-xl start-md start-xs ">
+                            <p id="nameRestaurant">Язык говяжий с хреном</p>
+                            <p id="category">&nbsp;</p>
+                            <p class="price">350 &#8381;</p>
                         </div>
-                        <div class="col-xl-6 col-md-6 col-xs-4 end-xl end-md end-xs">
-                            <img src="img/seld.png" alt="" id="pad-img">
+                        <div class="col-xl-6 col-md-6 col-xs-5 end-xl end-md end-xs">
+                            <img src="img/toungcow.png" alt="" id="pad-img">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- <div class="row">
 
-            <div class="col-xl-6 col-md-12">
-                <div class="snack">
-                    <div class="row">
-                        <div class="pad col-xl-6 col-md-6 start-xl start-md start-xs ">
-                            <p id="nameRestaurant">Сельдь на бородинском хлебе</p>
-                            <p id="category">С яйцом и огурцом</p>
-                        </div>
-                        <div class="col-xl-6 col-md-6 end-xl end-md end-xs">
-                            <img src="img/seld.png" alt="" id="pad-img">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-6 col-md-12">
-                <div class="snack">
-                    <div class="row">
-                        <div class="pad col-xl-6 col-md-6 start-xl start-md start-xs ">
-                            <p id="nameRestaurant">Сельдь на бородинском хлебе</p>
-                            <p id="category">С яйцом и огурцом</p>
-                        </div>
-                        <div class="col-xl-6 col-md-6 end-xl end-md end-xs">
-                            <img src="img/seld.png" alt="" id="cardImg">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
 
     </div>
 
