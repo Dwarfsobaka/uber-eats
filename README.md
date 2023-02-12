@@ -5,3 +5,6 @@ This is the final project on the Stepik course.
 <li>The pages are linked to each other - clicking on any restaurant from the list takes you to the page with the Pushkin restaurant.</li>
 <li>Layout in Figma.</li>
 </ul>
+
+Link to host:
+https://dwarfsobaka.github.io/uber-eats/ubereats.html
